@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Remplir Ma Demande</title>
+
+  <!-- Jquery 3.2.1 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Google Font Open Sans  -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!-- Font Awesome CDN	 -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!-- Custom style css  -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="grid">
+    <div class="quick-links">
+     <ul>
+      <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>1-999-999-999</a></li>
+      <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>info@infopret.net</a></li>
+      <li><a href="">A Propos de Nous</a></li>
+      <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="">EN</a></li>
+     </ul>
+    </div>
+    <nav class="nav-bar">
+      <span class="brand"><img src="img/flash.png" alt=""></span>
+      <ul>
+        <li><a href="">Demande de prêt</a></li>
+        <li><a href="">Renouvellement</a></li>
+        <li><a href="">Fonctionnement</a></li>
+        <li><a href="">Acces Client</a></li>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">Nous Joindre</a></li>
+      </ul>
+    </nav>
+
+    <section class="form-section">
+     <h1>Demande de prêt sans enquête crédit</h1>
+      <form class="form" action="">
+        <h2>Informations Personnelles</h2>
+          <div class="form-box">
+            <div class="form-group">
+              <label for="firstname">Prénom</label>
+              <input type="text" name="firstname" id="firstname" placeholder="Prénom">
+            </div>
+
+            <div class="form-group">
+              <label for="lastname">Nom</label>
+              <input type="text" name="lastname" id="lastname" placeholder="Nom">
+            </div>
+
+            <div class="form-group">
+              <label for="gender">Sexe</label>
+              <select class="" name="gender" id="gender">
+                <option selected="selected" class="option-placeholder">Choisissez</option>
+                <option value="male">Homme</option>
+                <option value="female">Femme</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="birthdate">Date de naissance</label>
+              <input type="text" name="birthdate" id="birthdate" placeholder="JJ/MM/AAAA">
+            </div>
+
+          </div>
+
+      <h2>Coordonnées</h2>
+        <div class="form-box">
+          <div class="form-group">
+            <label for="address">Adresse</label>
+            <input type="text" name="address" id="address" placeholder="Adresse">
+          </div>
+
+          <div class="form-group">
+            <label for="appartment">App.</label>
+            <input type="text" name="appartment" id="appartment" placeholder="App">
+          </div>
+
+          <div class="form-group">
+            <label for="city">Ville</label>
+            <input type="text" name="city" id="city" placeholder="Ville">
+          </div>
+
+
+
+          <div class="form-group">
+            <label for="postal">Code Postal</label>
+            <input type="text" name="postal" id="postal" placeholder="1A1 A1A">
+          </div>
+
+          <div class="form-group">
+            <label for="province">Province</label>
+            <input type="text" name="province" id="province" value="Québec" disabled>
+          </div>
+
+          <div class="form-group">
+            <label for="cellphone">Tel. Cellulaire</label>
+            <input type="text" name="cellphone" id="cellphone" placeholder="Tel. Cellulaire">
+          </div>
+        </div>
+
+
+      <h2>Informations sur votre source de revenus</h2>
+        <div class="form-group">
+          <label for="company-name">Nom de l'entreprise</label>
+          <input type="text" name="company-name" id="company-name" placeholder="Nom de l'entreprise">
+        </div>
+
+        <div class="form-group">
+          <label for="company-phone">Téléphone de l'entreprise</label>
+          <input type="text" name="company-phone" id="company-phone" placeholder="999-999-9999">
+        </div>
+
+        <div class="form-group">
+          <label for="start-job-date">Date d'embauche</label>
+          <select class="" name="year" id="year">
+            <option selected="selected" class="option-placeholder">Année</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2017">2017</option>
+          </select>
+        </div>
+         <div class="form-group">
+          <select class="" name="month" id="month">
+            <option selected="selected" class="option-placeholder">Mois</option>
+            <option value="january">01</option>
+            <option value="february">02</option>
+            <option value="mars">03</option>
+            <option value="april">04</option>
+            <option value="may">05</option>
+            <option value="june">06</option>
+            <option value="july">07</option>
+            <option value="august">08</option>
+            <option value="september">09</option>
+            <option value="october">10</option>
+            <option value="november">11</option>
+            <option value="december">12</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="payment-frequency">Chèque de paie</label>
+          <select class="" name="payment-frequency" id="payment-frequency">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+        </div>
+
+      <h2>Création de votre compte sécurisé</h2>
+      <div class="form-box">
+        <div class="form-group">
+          <label for="email">Courriel</label>
+          <input type="text" name="email" id="email">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Mot de Passe</label>
+          <input type="password" name="password" id="password">
+        </div>
+      </div>
+
+         <button type="submit" class="btn btn-blue" id="application-btn">Appliquez</button>
+      </form>
+      
+      
+
+  </section>
+
+    <footer class="footer">
+        <div class="footer-info">
+          <p>Attention : veuillez emprunter prudemment et de façon responsable. Prêt argent rapide offre un moyen de vous aider si vous n'avez pas d'autre solution disponible. Notre taux d'intérêt est plus élevé que celui des institutions financières conventionnelles; ce genre de prêt ne devrait être contracté que lorsque toutes les autres options ont été envisagées auparavant. Un prêt contracté en toute connaissance de cause peut être la solution adaptée à vos besoins. Si vous contractez plusieurs prêts à court terme, votre situation financière se détériorera très rapidement et cette dette sera impossible à rembourser.</p>
+        </div>
+
+        <ul class="footer-links">
+          <li>Demande de prêt</li>
+          <li>Renouvellement</li>
+          <li>Fonctionnement</li>
+          <li>Acces Client</li>
+          <li>FAQ</li>
+          <li>Nous Joindre</li>
+          <li>À propos de nous</li>
+        </ul>
+
+        <div class="copyright">
+           <p>&copy; 2018,  - Micro Prêt Express - Tous droits réservés.</p>
+           <ul>
+             <li>Politique de confidentialité</li>
+           </ul>
+        </div>
+    </footer>
+
+  </div>
+</body>
+</html>

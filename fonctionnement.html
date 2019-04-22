@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Remplir Ma Demande</title>
+
+  <!-- Jquery 3.2.1 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Google Font Open Sans  -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!-- Font Awesome CDN	 -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!-- Custom style css  -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="grid">
+      <div class="quick-links">
+       <ul>
+        <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>1-999-999-999</a></li>
+        <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>info@infopret.net</a></li>
+        <li><a href="">A Propos de Nous</a></li>
+        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="">EN</a></li>
+       </ul>
+      </div>
+      <nav class="nav-bar">
+        <span class="brand"><img src="img/flash.png" alt=""></span>
+        <ul>
+          <li><a href="">Demande de prêt</a></li>
+          <li><a href="">Renouvellement</a></li>
+          <li><a href="">Fonctionnement</a></li>
+          <li><a href="">Acces Client</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Nous Joindre</a></li>
+        </ul>
+      </nav>
+
+    <section class="calculator">
+          <div class="calculator-box">
+            <h1>Obtenez votre prêt en 3 étapes</h1>
+              <div class="steps-box">
+               <ul>
+                <li><i class="fab fa-wpforms"></i> 1. Appliquez en ligne 
+                  Remplissez le formulaire en ligne et choisissez le montant de votre prêt. Vous serez alors redirigé vers votre espace client hautement sécurisé et nouvellement créé.</li>
+                 
+                 <li><i class="fas fa-file-alt"></i> 2. Envoyer les Documents requis
+                   Envoyer les documents qui vous seront demandés dans votre espace client.</li>
+                 
+                 <li><i class="fas fa-clock"></i> 3. Attendre votre approbation
+                     Suite à l’approbation de votre demande, nos agents vous enverrons un contrat sur votre Accès Client. Le signer ne prend qu’un seul clic!
+                     Il n’est donc pas du tout nécessaire de l’imprimer, le signer puis le faxer. 
+                     Une fois le contrat signé, nos agents déposeront le montant que vous avez choisi, directement dans votre compte bancaire.
+                      </li>
+               </ul>
+              </div>
+
+                <button class="btn btn-default" type="button" name="button">Faire Ma Demande</button>
+          </div>
+
+            <div class="card">
+              <div class="card-header">Calculez vos paiements</div>
+              <div class="card-body">
+                <h3>Montant du prêt</h3>
+                  <ul class="amount-box">
+                    <li data-amount="500" data-term="3">500$</li>
+                    <li data-amount="750" data-term="4">750$</li>
+                    <li data-amount="1000" data-term="5">1000$</li>
+                    <li data-amount="1250" data-term="6">1250$</li>
+                  </ul>
+
+                <h3>Fréquence de paiement</h3>
+                  <ul class="payment-frequency">
+                    <li data-frequency="4">Chaque semaine</li>
+                    <li data-frequency="2">Aux deux semaines</li>
+                    <li data-frequency="1">Mensuelle</li>
+                  </ul>
+
+                <h3>Montant des versements</h3>
+                <span class="payments">00.00</span><p> par versement pendant environ <span class="days">0</span> jours</p>
+              </div>
+<!--               <div class="card-footer"><h1>demander un prêt</h1></div> -->
+            </div>
+        </section>
+    
+        <section class="requirements">
+          <div class="requirements-box">
+            <h2>Critères d'admissibilité</h2>
+            <ul>
+              <li>Avoir 18 ans ou plus</li>
+              <li>Être citoyen canadien</li>
+              <li>Occuper un emploi stable depuis au moins 1 mois</li>
+              <li>Gagner un salaire net constant d'au moins 1200 $ par mois</li>
+              <li>Ne pas être sous une faillite non libérée ou sur le point d'en faire une</li>
+            </ul>
+          </div>
+          
+          <div class="requirements-box">
+            <h2>Documents requis</h2>
+            <ul>
+              <li>Relevé bancaire des 30 derniers jours</li>
+              <li>Dernier talon de paie</li>
+              <li>Spécimen de chèque ou formulaire d'autorisation de prélèvements automatiques de votre institution financière</li>
+              <li>Preuve d'identité (photocopie du permis de conduire, carte d'assurance maladie ou passeport)</li>
+              
+            </ul>
+          </div>
+          
+        
+        </section>
+
+     <footer class="footer">
+        <div class="footer-info">
+          <p>Attention : veuillez emprunter prudemment et de façon responsable. Prêt argent rapide offre un moyen de vous aider si vous n'avez pas d'autre solution disponible. Notre taux d'intérêt est plus élevé que celui des institutions financières conventionnelles; ce genre de prêt ne devrait être contracté que lorsque toutes les autres options ont été envisagées auparavant. Un prêt contracté en toute connaissance de cause peut être la solution adaptée à vos besoins. Si vous contractez plusieurs prêts à court terme, votre situation financière se détériorera très rapidement et cette dette sera impossible à rembourser.</p>
+        </div>
+
+        <ul class="footer-links">
+          <li>Demande de prêt</li>
+          <li>Renouvellement</li>
+          <li>Fonctionnement</li>
+          <li>Acces Client</li>
+          <li>FAQ</li>
+          <li>Nous Joindre</li>
+          <li>À propos de nous</li>
+        </ul>
+
+        <div class="copyright">
+           <p>&copy; 2018,  - Micro Prêt Express - Tous droits réservés.</p>
+           <ul>
+             <li>Politique de confidentialité</li>
+           </ul>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>

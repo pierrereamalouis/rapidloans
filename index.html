@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pret Rapides</title>
+
+  <!-- Jquery 3.2.1 -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Google Font Open Sans  -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  
+  <!--  Google Font PT Sans  -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+  <!-- Font Awesome CDN	 -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!-- Custom style css  -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+  <div class="grid">
+      <div class="quick-links">
+       <ul>
+        <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>1-999-999-999</a></li>
+        <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i>info@infopret.net</a></li>
+        <li><a href="">A Propos de Nous</a></li>
+        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="">EN</a></li>
+       </ul>
+      </div>
+      <nav class="nav-bar">
+        <span class="brand"><img src="img/flash.png" alt=""></span>
+        <ul>
+          <li><a href="">Demande de prêt</a></li>
+          <li><a href="">Renouvellement</a></li>
+          <li><a href="">Fonctionnement</a></li>
+          <li><a href="">Acces Client</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Nous Joindre</a></li>
+        </ul>
+      </nav>
+
+      <section class="showcase">
+        <ul class="slider">
+          <li id="slider-1">
+            <img class="showcase-images" src="img/woman-on-laptop.jpg">
+
+            <div class="showcase-box">
+            <div class="text-box">
+              <h2>Un Prêt de 750$ approuvé en une heure ça vous intéresse?</h2>
+              <p>Obtenez facilement un prêt avec Micro Prêt Express!</p>
+            </div>
+
+             <button class="btn btn-blue">Appliquez</button>
+
+           </div>
+          </li>
+
+          <li id="slider-2">
+            <img class="showcase-images" src="img/laptop.jpg" alt="">
+
+            <div class="showcase-box">
+             <div class="text-box">
+               <h2>Le prêt intelligent:
+                  rapide &#38; sans document!</h2>
+               <p>Nous sommes la seule entreprise de micro-prêts à vous proposer la technologie IBV (Vérification Bancaire Instantanée)
+                 qui nous permet de vous offrir un service plus rapide, confidentiel et sécuritaire.
+                 Obtenez un prêt entre 250$ et 1250$ dès maintenant!</p>
+             </div>
+             <button class="btn btn-blue">Appliquez</button>
+           </div>
+          </li>
+
+          <li id="slider-3">
+            <img class="showcase-images" src="img/relaxed.jpg" alt="">
+
+            <div class="showcase-box">
+             <div class="text-box">
+               <h2>Minimum de 3 mois pour rembourser</h2>
+               <p>Selon votre fréquence de paiement, votre prêt sera remboursé dans un minimum de 90 jours</p>
+
+
+             </div>
+              <button class="btn btn-blue">Appliquez</button>
+           </div>
+          </li>
+        </ul>
+        
+        <!-- The dots/circles -->
+        <div class="dots-buttons">
+          <span class="dot active-dot" onclick="showSlides(1)"></span>
+          <span class="dot" onclick="showSlides(2)"></span>
+          <span class="dot" onclick="showSlides(3)"></span>
+        </div>
+      </section>
+
+        <section class="desc">
+            <h2>micro prêt rapide, sans enquête de crédit</h2>
+            <p>Vous êtes aux prises avec un besoin urgent d'argent ? Obtenez un crédit en ligne rapidement et sans enquête grâce à Prêt argent rapide. Appliquez maintenant et obtenez jusqu'à 750 $, en moins de 24 heures.
+              Vous n'êtes qu'à quelques clics d'avoir la somme désirée dans votre compte.
+              Avec Prêt argent rapide, recevez un prêt personnel renouvelable, en toute confidentialité. Contactez-nous dès aujourd'hui.</p>
+
+            <button class="btn btn-green">Faire Une Demande</button>
+            <button class="btn btn-blue">Renouveler</button>
+        </section>
+
+        <section class="features">
+              <div class="features-box">
+                <img src="img/locked.png" alt="" class="features-image">
+                <h2>100% sécurisé</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quod optio placeat quis molestiae illum.</p>
+              </div>
+              <div class="features-box">
+                <img src="img/hand-money.png" alt="" class="features-image">
+                <h2>dépôt très rapide</h2>
+                <p>Recevez votre argent le jour même de votre demande!</p>
+              </div>
+              <div class="features-box">
+                <img src="img/credit-card.png" alt="" class="features-image">
+                <h2>aucune enquête de crédit</h2>
+                <p>Peu importe votre cote de crédit, vous pouvez être accepté même si vous avez fait faillite</p>
+              </div>
+        </section>
+
+        <section class="calculator">
+          <div class="calculator-box">
+            <h1>Micro Prêt Express </h1>
+            <h2>La Solution simple sans stress</h2>
+            <p>Récolter et envoyer ses documents justificatifs peut être très complexe. Grâce à la technologie IBV, vous n’aurez pas ce stress supplémentaire.
+                De plus, nous croyons fermement que, pour avancer, il faut arrêter de regarder en arrière. C’est pourquoi nous vous approuvons en quelques minutes sans faire une enquête de crédit.</p>
+
+                <button class="btn btn-default" type="button" name="button">Faire Ma Demande</button>
+          </div>
+
+            <div class="card">
+              <div class="card-header">Calculez vos paiements</div>
+              <div class="card-body">
+                <h3>Montant du prêt</h3>
+                  <ul class="amount-box">
+                    <li data-amount="500" data-term="3">500$</li>
+                    <li data-amount="750" data-term="4">750$</li>
+                    <li data-amount="1000" data-term="5">1000$</li>
+                    <li data-amount="1250" data-term="6">1250$</li>
+                  </ul>
+
+                <h3>Fréquence de paiement</h3>
+                  <ul class="payment-frequency">
+                    <li data-frequency="4">Chaque semaine</li>
+                    <li data-frequency="2">Aux deux semaines</li>
+                    <li data-frequency="1">Mensuelle</li>
+                  </ul>
+
+                <h3>Montant des versements</h3>
+                <span class="payments">00.00</span><p> par versement pendant environ <span class="days">0</span> jours</p>
+              </div>
+<!--               <div class="card-footer"><h1>demander un prêt</h1></div> -->
+            </div>
+        </section>
+
+        <section class="faq">
+          <div class="faq-box">
+            <h2>Foire Aux Questions</h2>
+            <ul>
+              <li><i class="fas fa-angle-right"></i>Lorem ipsum dolor sit?</li>
+              <li><i class="fas fa-angle-right"></i>Lorem ipsum dolor sit amet, consectetur adipisicing?</li>
+              <li><i class="fas fa-angle-right"></i>Lorem ipsum dolor sit amet?</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="call-action">
+          <h1>Prêts rapides entre 250$ et 1250$ disponibles en tout temps!</h1> <span><button class="btn" type="button" name="button">Appliquez</button></span>
+        </section>
+
+        <section class="info">
+
+          <div class="info-box">
+            <h3>Quel est le taux annuel?</h3>
+            <p>Nous travaillons avec les meilleures institutions financières pour vous offrir un taux annuel de maximum 29%.</p>
+
+            <h3>Avez-vous un exemple de prêts et de versements?</h3>
+            <p>Bien sûr! Si vous avez besoin de 750$ aujourd’hui, notre équipe s’assurera
+              que l’argent soit déposé directement dans votre compte avant la fin de la journée.
+              Lorsque vous aurez reçu votre prêt, vous pourrez le rembourser de façon flexible pendant 3 à 6 mois.
+              Vous paierez 10 versements de 120$ avec, toujours en guise d’exemple, 380$ de frais de dossier.
+               Par contre, les frais sont ultimement déterminés par l’agent.
+              Cette information est uniquement donnée à titre d’exemple.</p>
+          </div>
+
+          <div class="info-box">
+            <h3>Qu’arrive-t-il si je suis en défaut de paiement?</h3>
+            <p>Il y a deux possibilités;<br/>
+              La première, est que votre versement préautorisé a rebondi. Dans ce cas, vous aurez un frais de 50$.
+              Votre institution financière peut aussi vous charger un frais pour « effet sans provision » (NSF). Il est toujours mieux de vous assurer d’avoir les fonds nécessaires
+              avant la date de votre prélèvement pour éviter ces frais.
+              La deuxième possibilité est que vous ayez fait la demande pour reporter un paiement.
+              Lorsque vous faites le choix de faire un report, 35$ de frais administratif seront chargés, mais vous pourrez demander de payer votre versement plus tard.
+              Assurez-vous de faire la demande au moins 3 jours ouvrables avant votre versement pour vous assurer que votre demande soit approuvée.</p>
+
+              <h3>Est-ce qu’il y a d’autres conditions?</h3>
+              <p>Il y a encore certains détails que vous devez savoir.
+                  Tout d’abord, votre prêt ne sera pas renouvelé si vous ne faites pas la demande ou que cette dernière n’est pas approuvée.</p>
+          </div>
+
+          <div class="info-box">
+            <h3>Qu’en est-il des cotes de crédit et du recouvrement?</h3>
+            <p>Ne vous inquiétez pas. Si un incident arrive et que vous ne pouvez pas faire un paiement à temps,
+              notre équipe s’assurera de trouver une solution avec vous. Cependant, nous nous soumettons aux standards et
+              règlements canadiens en matière de prêts. Nous sommes donc dans l’obligation de demander le paiement complet de tous montants,
+              intérêts et autres coûts engendrés s’il y a défaut de paiement dans un contrat modifié. Aussi, si nous avons quelconques frais
+              légaux en raison d’un défaut de paiement sur votre entente modifiée, nous allons réclamer ces frais et vous devrez nous les rembourser.
+              Si, pour une raison ou une autre, nous ne pouvons pas nous entendre pour le remboursement de votre prêt, nous n’aurons pas le choix d’assigner votre dossier à
+              une agence de recouvrement ce qui risque d’influencer votre cote de crédit. Il est donc dans votre intérêt de payer vos versements à temps.</p>
+          </div>
+
+        </section>
+
+    <footer class="footer">
+        <div class="footer-info">
+          <p>Attention : veuillez emprunter prudemment et de façon responsable. Prêt argent rapide offre un moyen de vous aider si vous n'avez pas d'autre solution disponible. Notre taux d'intérêt est plus élevé que celui des institutions financières conventionnelles; ce genre de prêt ne devrait être contracté que lorsque toutes les autres options ont été envisagées auparavant. Un prêt contracté en toute connaissance de cause peut être la solution adaptée à vos besoins. Si vous contractez plusieurs prêts à court terme, votre situation financière se détériorera très rapidement et cette dette sera impossible à rembourser.</p>
+        </div>
+
+        <ul class="footer-links">
+          <li>Demande de prêt</li>
+          <li>Renouvellement</li>
+          <li>Fonctionnement</li>
+          <li>Acces Client</li>
+          <li>FAQ</li>
+          <li>Nous Joindre</li>
+          <li>À propos de nous</li>
+        </ul>
+
+        <div class="copyright">
+           <p>&copy; 2018,  - Micro Prêt Express - Tous droits réservés.</p>
+           <ul>
+             <li>Politique de confidentialité</li>
+           </ul>
+        </div>
+    </footer>
+  </div>
+
+<script type="text/javascript">
+    
+  var interval;
+
+  function startTimer() {
+    clearInterval(interval);    
+      
+    interval = setInterval(function () {
+        moveRight();
+    }, 7000);
+  }
+  
+  startTimer();
+  
+ 
+    function showSlides(n) {     
+      
+       $('.slider').animate( 700, function () {
+            $('#slider-'+ n +'').prependTo('.slider');
+            
+            
+            if (n == 1){
+              $('#slider-3').appendTo('.slider');
+            }else{
+              $('#slider-'+ (n-1) +'').appendTo('.slider');
+            }
+            
+          startTimer();
+        });
+      
+    }    
+
+    function moveLeft() {
+        $('.slider').animate( 700, function () {
+            $('.slider li:last-child').prependTo('.slider');
+        });
+    }
+
+    function moveRight() {
+        $('.slider').animate( 700, function () {
+            $('.slider li:first-child').appendTo('.slider');
+          
+            var dot = $( ".dots-buttons span" ).filter('.active-dot');
+          
+            dot.removeClass('active-dot');
+          
+            var dot_nth_child = dot.index() + 2;
+          
+            if ( dot_nth_child == 4 ){
+              dot_nth_child = 1;
+            }
+          
+          $('.dots-buttons span:nth-child(' + dot_nth_child + ' )').addClass('active-dot');
+          
+          console.log(dot_nth_child);
+        });
+    }
+  
+  $('.dot').click(function(){
+    $('.dot').removeClass('active-dot');
+    $(this).addClass('active-dot');
+  });
+  
+  
+  $('.amount-box li').click(function(){
+    $('.amount-box li').removeClass('amount-selected');
+    $(this).addClass('amount-selected');
+    
+    paymentCalculator();
+  });
+  
+  $('.payment-frequency li').click(function(){
+    $('.payment-frequency li').removeClass('frequency-selected');
+    $(this).addClass('frequency-selected');
+    
+    paymentCalculator();
+  });
+  
+  var loan_amount = 0;
+  var payment_frequency = 0; 
+  var loan_term = 0; //In Months
+  var payments = 0;
+  
+  function paymentCalculator(){
+    loan_amount =  $('.amount-selected').data('amount');
+    payment_frequency = $('.frequency-selected').data('frequency');
+    loan_term = $('.amount-selected').data('term');
+    
+    payments = loan_amount / (payment_frequency * loan_term);
+    
+    
+    console.log(loan_amount + " -- " + payment_frequency + " -- " + loan_term + " -- ");
+    
+    if (loan_amount != null && payment_frequency != null){
+      $('.payments').text(payments.toFixed(2) + '$');
+      $('.days').text(loan_term * 30);
+    }
+    
+  }
+  
+  </script>
+</body>
+</html>
